@@ -63,7 +63,7 @@ def home():
             address=customer_info['address'],
             city=customer_info['city']
         )
-        db.session.add(new_customer)
+            db.session.add(new_customer)
 
         try:
             db.session.commit()
